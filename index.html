@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cipher</title>
+  </head>
+  <body>
+    <form action="/action_page.php">
+      Plaintext<br>
+      <input id="plaintext" type="text" name="Plaintext" value="">
+      <br>
+      Key<br>
+      <input id="key" type="text" name="Key" value="">
+      <br><br>
+      <input type="button" onclick="encrypt()" value="Encrypt">
+    </form>
+    <form action="/action_page.php">
+      Plaintext<br>
+      <input id="ciphertext" type="text" name="Plaintext" value="">
+      <br>
+      Key<br>
+      <input id="decKey" type="text" name="Key" value="">
+      <br><br>
+      <input type="button" onclick="decrypt()" value="Encrypt">
+    </form>
+  </body>
+    <script src="js/script.js"></script>
+</html>
