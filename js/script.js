@@ -23,10 +23,16 @@ function flCapRevCat(str) {
 }
 
 function fourth(str) {
-  return str.charAt(math.round(parseInt(str.length()) / 2)) + str;
+  return str.charAt(Math.round(str.length / 2)) + str;
 }
+
+function lastFunc(str) {
+  return rev(fourth(str));
+}
+
 alert(firstLastCap(sent));
 alert(rev(sent));
 alert(flCapRev(sent));
 alert(flCapRevCat(sent));
 alert(fourth(sent));
+alert(lastFunc(sent));
